@@ -5,6 +5,7 @@ body {
 
 
 .body {
+  /* position: absolute; */
   width: 550px;
   height: 853px;
   top: -427px;
@@ -77,30 +78,19 @@ body {
   color: #222222;
 }
 
-.info {
-  display: flex;
-  flex-direction: row;
-}
-
-.lower img {
-  width: 176px;
-  height: 235px;
+.wrapper {
+  position: absolute;
   top: 521px;
   left: 37px;
-  border-radius: 9px;
+  
+  display: flex;
+  align-items: center;
 }
 
-.star {
-  width: 14px;
-  height: 14px;
-  top: 765px;
-  left: 36px;
+.wrapper > * {
+  margin-right: 5px;
 }
 
-.ellipse {
-  width: 2px;
-  height: 2px;
-  top: 771px;
-  left: 92px;
-  color: #918E9B;
+#None {
+  display: none;
 }
