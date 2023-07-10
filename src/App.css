@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.body {
+  width: 550px;
+  height: 853px;
+  top: -427px;
+  left: -275px;
+  border-radius: 8.949999809265137px;
+ 
+  background: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rectangle13 {
+  width: 550px;
+  height: 70px;
+  
+  background: #FFFFFF;
+
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+  border-radius: 8.949999809265137px 8.949999809265137px 0px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rectangle13 img {
+  position: absolute;
+  width: 82.02044677734375px;
+  height: 25.351774215698242px;
+  top: 22px;
+  left: 30px;
+  padding: 0px 0.011740677058696747px 0px 0.012291915714740753px;
+}
+
+.all-img {
+  position: absolute;
+  width: 395.906494140625px;
+  height: 232px;
+  top: 96px;
+  left: 77px;
+  border-radius: 8.949999809265137px;
+}
+
+.title {
+  position: absolute;
+  width: 355px;
+  height: 40px;
+  top: 360px;
+  left: 36px;
+  
+
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #000000;
+}
+
+.content {
+  position: absolute;
+  width: 320px;
+  height: 56px;
+  top: 416px;
+  left: 36px;
+  
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.6px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #222222;
+}
+
+.info {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.lower img {
+  width: 176px;
+  height: 235px;
+  top: 521px;
+  left: 37px;
+  border-radius: 9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.star {
+  width: 14px;
+  height: 14px;
+  top: 765px;
+  left: 36px;
+}
+
+.ellipse {
+  width: 2px;
+  height: 2px;
+  top: 771px;
+  left: 92px;
+  color: #918E9B;
 }
