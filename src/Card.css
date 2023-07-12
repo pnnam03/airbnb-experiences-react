@@ -1,13 +1,11 @@
-.lower {
-  margin-left: 10px;
-}
+
 
 .big-image {
-    position: absolute;
+    position: relative;
     width: 176px;
     height: 235px;
-    top: 521px;
-    left: 37px;
+    /* top: 521px;
+    left: 37px; */
     border-radius: 9px;
   }
   
@@ -15,7 +13,11 @@
     position: absolute;
     width: 61px;
     height: 20px;
-    top: 527px;
+    top: 6px;
+    margin-left: 6px;
+    /* top: 6px;
+    left: 6px; */
+    /* top: 527px; */
     /* left: 43px; */
     border-radius: 2px;
   
@@ -33,15 +35,20 @@
   }
   
   .rect {
+    position: absolute;
     width: 49px;
     height: 11px;
+    top: 6px;
+    /* padding-left: 6px; */
+    /* left: 6px; */
   }
   
   .block {
-    position: absolute;
+    position: relative;
     width: 176px;
     height: 58px;
-    top: 765px;
+    margin-top: 6px;
+    /* top: 765px; */
     /* left: 36px; */
   
     display: flex;
@@ -100,7 +107,7 @@
     /* position: absolute; */
     width: 2px;
     height: 2px;
-    top: 6px;
+    /* top: 6px; */
     /* margin-left: 20px; */
     
     color: #918E9B;

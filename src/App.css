@@ -35,19 +35,22 @@ body {
 }
 
 .all-img {
-  position: absolute;
+  position: relative;
   width: 395.906494140625px;
   height: 232px;
-  top: 96px;
+  margin-top: 30px;
+  /* top: 96px; */
   left: 77px;
   border-radius: 8.949999809265137px;
 }
 
 .title {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   width: 355px;
   height: 40px;
-  top: 360px;
+  margin-top: 30px;
+  /* top: 360px; */
   left: 36px;
   
 
@@ -62,10 +65,12 @@ body {
 }
 
 .content {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   width: 320px;
   height: 56px;
-  top: 416px;
+  margin-top: 30px;
+  /* top: 416px;*/
   left: 36px;
   
   font-family: Poppins;
@@ -79,18 +84,28 @@ body {
 }
 
 .wrapper {
-  position: absolute;
-  top: 521px;
+  /* position: absolute; */
+  position: relative;
+  margin-top: 30px;
+  width: 550px;
+  /* top: 0px; */
   left: 37px;
   
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
-.wrapper > * {
-  margin-right: 5px;
-}
 
 #None {
   display: none;
+}
+
+.lower {
+  /* position: absolute; */
+  /* position: relative;
+  top: 0px; */
+  /* left: 100px; */
+  width: 176px;
+  height: 235px;
+  margin-right: 20px;
 }
